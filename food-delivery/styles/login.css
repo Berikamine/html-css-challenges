@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+
+.container .left {
+    background: #fff;
+    flex: 1.5
+}
+
+.container .left .left-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.container .left .left-wrapper h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    color: #2B2B43;
+    padding-top: 51px;
+    padding-bottom: 20px;
+}
+
+.container .left .left-wrapper span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #545563;
+}
+
+.container .left .left-wrapper .label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #545563;
+    padding-top: 32px;
+}
+
+.container .left .left-wrapper input[type="text"] {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #83859C;
+    padding: 12px 0;
+    text-indent: 12px;
+    height: 25px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #C7C8D2;
+}
+
+.container .left .left-wrapper .boxes {
+    display: flex;
+    padding-top: 20px;
+    column-gap: 12px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.container .left .left-wrapper .boxes .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2B2B43;
+}
+
+.container .left .left-wrapper .login {
+    background: #4E60FF;
+    color: #FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.left-wrapper input[type="checkbox"] {
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.container .left .left-wrapper .forgot-password {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E60FF;
+    text-align: center;
+    display: block;
+    padding-top: 28px;
+    padding-bottom: 106px;
+}
+
+.container .left .left-wrapper .sign-up {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #545563;
+    display: block;
+    text-align: center;
+
+}
+
+.container .left .left-wrapper .sign-up a {
+    text-decoration: none;
+    color: #4E60FF;
+}
+
+.container .right {
+    background: #697BFF;
+    flex: 2
+}
+
+.right .container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+
+.right .container img {
+    width: 294px;
+    height: 279px;
+    border-radius: 13.44px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.right .container span {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.right .container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.right .container .circle {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    padding-top: 40px;
+}
+
+.right .container .circle div {
+    width: 8px;
+    height: 8px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: #FFFFFF;
+    opacity: 0.3;
+}
+
+.right .container .circle .white {
+    background: #FFFFFF;
+    opacity: 1;
+}

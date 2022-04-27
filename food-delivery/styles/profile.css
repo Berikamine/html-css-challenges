@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    padding-top: 10px;
+}
+
+.container .header .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 224px;
+    height: 40px;
+    background: #EDEEF2;
+    border-radius: 12px;
+    border: 1px solid transparent;
+}
+
+.container .header .search input {
+    text-decoration: none;
+    width: 224px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: #EDEEF2;
+}
+
+.container .header .search i {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.container .header .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.container .header .right a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2B2B43;
+    text-decoration: none;
+}
+
+.container .header .right .line {
+    width: 0px;
+    height: 32px;
+    border: 1px solid #EDEEF2;
+    color: #2B2B43;
+}
+
+.container .header .right .profile-wrapper {
+    display: flex;
+    column-gap: 13px;
+}
+
+.container .header .right .profile-wrapper .basket {
+    background: #F3F4FF;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container .badge {
+    width: 16px;
+    height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #4E60FF;
+    border-radius: 8px;
+    padding: 5px;
+    line-height: 15px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.container .header .right .profile-wrapper .avatar {
+    border: solid 2px #83859C;
+    border-radius: 16px;
+    width: 40px;
+    height: 40px;
+    padding: 2px
+}
+
+.container .header .right .profile-wrapper .avatar img {
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.border {
+    border: 1px solid #EDEEF2;
+}
+
+.container .profile {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 30px;
+}
+
+.container .profile .settings {
+    flex: 1;
+}
+
+.container .profile .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2B2B43;
+}
+
+.container .profile .settings .left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    padding-top: 16px;
+}
+
+.container .profile .account {
+    background: #FFF;
+    flex: 2;
+}
+
+.container .profile .settings .personel-account {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 12px;
+    background: #FFF;
+    border: 2px solid #EDEEF2;
+    border-radius: 16px;
+    width: 350px;
+    padding: 16px;
+
+}
+
+.container .profile .settings .personel-account .icon {
+    background: #EDEEF2;
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    line-height: 39px;
+    text-align: center;
+    color: #83859C
+}
+
+.container .profile .settings .personel-account .text h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2B2B43;
+    padding-bottom: 2px;
+}
+
+.container .profile .settings .personel-account .text h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #545563;
+}
+
+.container .profile .settings .personel-account.choose {
+    background: #F3F4FF;
+    border: 2px solid #4E60FF;
+}
+
+.container .profile .settings .personel-account.choose .icon {
+    background: #4E60FF;
+    color: #FFF;
+}
+
+.container .account .title {
+    padding-bottom: 16px;
+}
+
+.container .account .border-right {
+    background: #fff;
+    border: 1px solid #EDEEF2;
+    box-sizing: border-box;
+    border-radius: 16px;
+    width: 730px;
+    height: 688px;
+    padding: 24px 16px;
+
+}
+
+.container .account .border-right h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B2B43;
+    padding-bottom: 16px;
+}
+
+.container .account .border-right h5 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #545563;
+}
+
+.container .account .border-right .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 40px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+
+.container .account .border-right .avatar .image {
+    border-radius: 16px;
+}
+
+.container .account .border-right .avatar .change {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E60FF;
+    background: #fff;
+    border: 1px solid #4E60FF;
+    border-radius: 12px;
+    padding: 14px 22px;
+}
+
+.container .account .border-right .avatar .remove {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #83859C;
+}
+
+.container .account .border-right .input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 16px;
+}
+
+.container .account .border-right .input.padding {
+    padding-top: 30px;
+    padding-bottom: 68px;
+}
+
+.container .account .border-right .input h5 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #545563;
+}
+
+.container .account .border-right .input input {
+    border: 1px solid #C7C8D2;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2B2B43;
+    width: 317px;
+}
+
+.container .account .border-right .email-notifications {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container .account .border-right .email-notifications .left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 12px;
+    padding-bottom: 24px;
+}
+
+.container .account .border-right .email-notifications .left .checkbox {
+    background: #4E60FF;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+.container .account .border-right .email-notifications .left div {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2B2B43;
+    width: 309px;
+    height: 20px;
+}
+
+.container .account .border-right .email-notifications .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 12px;
+    padding-bottom: 24px;
+}
+
+.container .account .border-right .email-notifications .right .checkbox {
+    background: #4E60FF;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+.container .account .border-right .email-notifications .right div {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2B2B43;
+    width: 309px;
+    height: 20px;
+}
+
+.border {
+    border: 1px solid #EDEEF2;
+}
+
+.container .account .border-right .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.container .account .border-right .footer .footer-left {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FF5C60;
+    background: #FFFFFF;
+    border: 1px solid #FF5C60;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.container .account .border-right .footer .footer-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.container .account .border-right .footer .footer-right button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: #83859C;
+    border: 1px solid #83859C;
+}
+
+.container .account .border-right .footer .footer-right .color {
+    color: #FFFFFF;
+    background: #4E60FF;
+}
