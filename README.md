@@ -1,5 +1,5 @@
 # html-css-challenges
 
-- [Portfolio Site](/portfolio/)
-- [Food Delivery](/food-delivery/)
-- [Fitness Landing Page](/fitness-landing-page/)
+1. [Portfolio Site](/portfolio/)
+2. [Food Delivery](/food-delivery/)
+3. [Fitness Landing Page](/fitness-landing-page/)
