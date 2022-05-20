@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.background{
+    background: linear-gradient(180deg, #FFFFFF 0%, #E2F1FF 100%);
+    width: 1440px;
+    height: 696px;
+}
+
+.container{
+    width:900px;
+    margin:0 auto;
+}
+
+a{
+    text-decoration:none;
+}
+
+.container .header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top:25px;
+    padding-bottom:130px;
+}
+
+.container .header .right{
+    column-gap:40px;
+    display:flex;
+    align-items: center;
+}
+
+.container .header .right .icon{
+    display:flex;
+    column-gap:4px;
+}
+
+.container .header .right a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.container .header .right .border{
+    color: #722ED1;
+    border: 1px solid #722ED1;
+    box-sizing: border-box;
+    border-radius: 23px;
+    background: #FFFFFF;
+    padding:12px 24px;
+}
+
+.container .landing{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap:16px;
+    padding-bottom:310px;
+}
+
+.container .landing .left{
+    display:flex;
+    row-gap:24px;
+    flex-direction:column;
+}
+
+.container .landing .left .edits{
+    display: inline-block;
+}
+
+.container .landing .left .edits .edit{
+    display:flex;
+    column-gap:12px;
+    background: #F7F1FF;
+    border-radius: 20px;
+    padding:8px 8px;
+    align-items:center;
+}
+
+.container .landing .left .edit div,a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #722ED1;
+}
+
+.container .landing .left h1{
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48px;
+    color: #000000;
+    margin:0;
+}
+
+.container .landing .left p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+    margin:0;
+}
+
+.container .landing .left .buttons{
+    display:flex;
+    column-gap:16px;
+}
+
+.container .landing .left .buttons .left-button{
+    background: #722ED1;
+    color: #FFFFFF;
+}
+
+.container .landing .left .buttons button{
+    background: #FFFFFF;
+    border-radius: 23px;
+    color: #722ED1;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    padding:12px 24px;
+}
+
+.container .tags{
+    display: flex;
+    justify-content: center;
+    padding-top:112px;
+}
+
+.container .tags .tag{
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+    column-gap:12px;
+    background: #F7F1FF;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+.container .tags .tag i{
+    color: #722ED1;
+
+}
+
+.container .title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #160637;
+    text-align: center;
+    padding:24px 0;
+}
+
+.container .paragraph{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8989A2;
+    text-align: center;
+    padding-bottom:24px;
+}
+
+.container .datas{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    column-gap:17px;
+    padding-bottom:156px;
+}
+
+.container .datas div{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #160637;
+}
+
+.container .datas p{
+    font-weight: 500;
+    color: #8989A2;
+}
+
+
+.container .content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap:88px;
+}
+
+.container .content .right .tags{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container .content .right .tags .tag{
+    display:inline-flex;
+    column-gap:14px;
+    background: #F9F0FF;
+    padding:12px 24px;
+}
+
+.container .content .right h3{
+    margin:0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #160637;
+    padding:24px 0;
+}
+
+.container .content .right p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8989A2;
+    margin:0;
+}
+
+.container .engineering-datas{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:120px;
+    padding-bottom:25px;
+}
+
+.container .engineering-datas .left{
+    display:flex;
+    flex-direction: column;
+    flex:2;
+    row-gap:24px;
+}
+
+.container .engineering-datas .left .tags{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container .engineering-datas .left .tags .tag{
+    display:inline-flex;
+    column-gap:14px;
+    background: #F9F0FF;
+    padding:10px 18px;
+}
+
+.container .engineering-datas .left .tags .tag div{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #722ED1;
+}
+
+.container .engineering-datas .left h3{
+    margin:0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #160637;
+}
+
+.container .engineering-datas .left p{
+    margin:0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8989A2;
+}
+
+.container .engineering-datas .right img{
+    width: 400px;
+    height: 414px;
+}
+
+.background-2 .container .references{
+    text-align: center;
+    padding-top:150px;
+    display:inline-block;
+    row-gap:32px;
+    align-items:center;
+    
+}
+
+.background-2 .container .references p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #160637;
+}
+
+.background-2 .container .references img{
+    width:80px;
+    height:80px;
+}
+
+.background-2 .container .references h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding-bottom:32px;
+}
+
+.background-2{
+    background: linear-gradient(175.54deg, #F9F0FF 25.81%, #E2F1FF 96.38%);
+    width: 1440px;
+    height: 730.5px;
+}
+
+.background-2 .container .references .border{
+    border: 1px solid #DEC9FA;
+}
+
+.background-2 .container .references-bottoms{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:40px;
+}
+
+.container .footer-top{
+    display:flex;
+    justify-content: space-between;
+    column-gap:100px;
+    padding-top:120px;
+}
+
+.container .footer-top .image-top, .image-bottom{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    column-gap:70px;
+    padding-top:52px;
+}
+
+.or{
+    text-align:center;
+    display:flex;
+    align-items:center;
+    color: #8989A2;
+    gap:20px;
+    padding-top:35px;
+    padding-right:58px;
+}
+
+.or::before, .or::after{
+    content:'';
+    height:1px;
+    flex:1;
+    background:#D6D6D6;
+}
+
+.container .footer-left{
+    flex:0.5;
+}
+
+.container .footer-right{
+    background: #F9F0FF;
+    width: 480px;
+    height: 480px;
+    left: 720px;
+    top: 3181px;
+    position:absolute;
+    box-shadow: 4px 4px 12px rgba(137, 137, 162, 0.122);
+    flex:1;
+}
+
+.container .footer-right .sign-up{
+    position:absolute;
+    bottom: 1px;
+    left: -20px;
+    padding: 32px 40px;
+    gap: 16px;
+    width: 428px;
+    height: 494px;
+    border-radius: 8px;
+}
+
+.background-3{
+    background: #FBFCFF;
+    width:1440px;
+    height:400px;
+    margin-top:300px;
+}
+
+.background-3 .container .footer{
+    display:flex;
+    column-gap:40px;
+    padding-top:58px;
+}
+
+.background-3 .container .footer .images{
+    display:flex;
+    column-gap:18px;
+    align-items:center;
+}
+
+.background-3 .container .footer .comment p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #160637;
+}
+
+.background-3 .container .footer .product, .for-developers, .company, .support, .newsletter{
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #160637;
+}
+    
+.background-3 .container .footer .product img{
+    width: 72px;
+    height: 208px;
+}
+
+.background-3 .container .footer .for-developers img{
+    width: 106px;
+    height: 96px;
+}
+
+.background-3 .container .footer .company{
+    width: 45px;
+    height: 68px;
+}
+
+.background-3 .container .footer .support{
+    width: 90px;
+    height: 180px;
+}
+
+
+
+.background-3 .container .footer .newsletter .input{
+    display:flex;
+    position:relative;
+}
+
+
+.background-3 .container .footer .newsletter .input img{
+    position:absolute;
+    right:6px;
+    top:5px;
+}
+
+.background-3 .container .footer-bottom{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    column-gap:8px;
+    padding-top:90px;
+}
