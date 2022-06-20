@@ -1,0 +1,703 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 42px 0;
+    width: 86%;
+}
+
+.greens {
+    background: #F3FCF7;
+    height: 663px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 38px;
+}
+
+.header .header-left a {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #06C167;
+}
+
+.header .header-right {
+    display: flex;
+    column-gap: 38px;
+}
+
+.header .header-right a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D1D1F;
+}
+
+.header .header-right .green {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.header .header-right .green a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #06C167;
+}
+
+.header .header-right .green div {
+    width: 6px;
+    height: 6px;
+    background: #06C167;
+    border-radius: 50%;
+    margin-left: 21px;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 76px;
+    column-gap: 127px;
+    margin-bottom: 130px;
+}
+
+.sidebar .sidebar-left h4 {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 91px;
+    color: #1D1D1F;
+    width: 533px;
+    margin: 0;
+}
+
+
+.sidebar .sidebar-left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 142.4%;
+    color: rgba(29, 29, 31, 0.75);
+    width: 533px;
+    margin-bottom: 80px;
+}
+
+
+.sidebar .sidebar-left .logos {
+    display: flex;
+    column-gap: 45px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:200px;
+}
+
+.sidebar .sidebar-right {
+    position: relative;
+}
+
+.sidebar .sidebar-right .polcadot {
+    position: absolute;
+    bottom: -11px;
+    right: -40px;
+}
+
+.sidebar .sidebar-right .star {
+    display: flex;
+    column-gap: 7px;
+    padding: 17px 19px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    width: 207px;
+    position: absolute;
+    top: 292px;
+    left: -113px;
+}
+
+.sidebar .sidebar-right .star div {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1D1D1F;
+}
+
+.sidebar .sidebar-right .star i {
+    color: #06C167;
+}
+
+.sidebar .sidebar-right .img {
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+    padding: 7px 9px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    width: 210px;
+    top: 199px;
+    right: -55px;
+    position: absolute;
+}
+
+.sidebar .sidebar-right .img div {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1D1D1F;
+}
+
+.line {
+    opacity: 0.15;
+    border: 1.5px solid #707070;
+}
+
+.sidebar-cards {
+    display: flex;
+    margin: 57.5px 0;
+    column-gap: 112px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-cards .card {
+    display: flex;
+    column-gap: 22px;
+    align-items: center;
+}
+
+.sidebar-cards .card .card-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F3FCF7;
+    background: #F3FCF7;
+    padding: 22px 18.7px;
+}
+
+.sidebar-cards .card .card-right h5 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1D1D1F;
+}
+
+.sidebar-cards .card .card-right div {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1D1D1F;
+    opacity: 0.75;
+    margin-top: 7px;
+}
+
+.our-benefit {
+    display: flex;
+    margin-top: 132px;
+    column-gap: 84px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.our-benefit .img {
+    background: #F3FAFB;
+    width: 530px;
+    height: 608px;
+    display: flex;
+    justify-content: center;
+}
+
+.our-benefit .img img {
+    width: 420px;
+    height: 513px;
+}
+
+.our-benefit .healthy {
+    position: relative;
+}
+
+.our-benefit .healthy h5 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1D1D1F;
+    margin-bottom: 20px;
+}
+
+.our-benefit .healthy h3 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    color: #1D1D1F;
+    width: 537px;
+    margin: 0;
+    margin-bottom: 67px;
+}
+
+.our-benefit .healthy .check {
+    display: flex;
+    column-gap: 22px;
+    margin-bottom: 21px;
+}
+
+.our-benefit .healthy .check div {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D1D1F;
+}
+
+.our-benefit .healthy .circle {
+    position: absolute;
+    top: 52px;
+    left: -51px;
+    z-index: -1;
+}
+
+.our-stars {
+    display: flex;
+    margin-top: 132px;
+    column-gap: 84px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-get-special{
+    background: #06C167;
+    border:1px solid #06C167;
+    padding:29px 27px;
+    margin-top:30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display:inline;
+    justify-content:center;
+    align-items:center;
+    width:233px;
+}
+
+.button-get-special img{
+    width:22.38px;
+    height:11px;
+    margin-left:15px;
+}
+
+.our-stars .img {
+    background: #F3FAFB;
+    width: 530px;
+    height: 608px;
+    display: flex;
+    justify-content: end
+}
+
+.our-stars .img img {
+    width: 420px;
+    height: 513px;
+}
+
+
+.our-stars .our-star .cards {
+    display: flex;
+    column-gap: 114px;
+    justify-content: space-between;
+}
+
+.our-stars .our-star h3 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1D1D1F;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.our-stars .our-star h5 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    color: #1D1D1F;
+    width: 570px;
+    margin: 0;
+    margin-bottom: 55px;
+}
+
+.our-stars .our-star .cards .cards-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-stars .our-star .cards .cards-1 .number {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #06C167;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.our-stars .our-star .cards .cards-1 .writing {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1D1D1F;
+    opacity: 0.65;
+    margin-bottom: 51px;
+}
+
+.our-stars .our-star{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-stars .our-star .polcadot{
+    position:absolute;
+    z-index: -1;
+    top: 52px;
+    left: -57px;
+}
+
+.subtitle{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1D1D1F;
+    margin-top:197px;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    color: #1D1D1F;
+    text-align: center;
+    margin-bottom:70px;
+}
+
+.our-features{
+    display:flex;
+    justify-content:center;
+}
+
+.our-features img{
+    width:294.5px;
+    height:295.5px;
+}
+
+.our-features .cards{
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    background: #F3FCF7;
+    width:292.5px;
+    height:292.5px;
+    justify-content:center;
+    border: 1.5px solid #06C167;
+}
+
+.our-features .cards img{
+    width:12.22px;
+    height:6px;
+}
+
+.our-features .cards h2{
+    margin:0;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1D1D1F;
+    width:227px;
+    margin-bottom:25px;
+    margin-left:36px;
+}
+
+.our-features .cards h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D1D1F;
+    margin:0;
+    width:210px;
+    margin-bottom:38px;
+    margin-left:36px;
+}
+
+.our-features .cards .button{
+    display:flex;
+    align-items:center;
+    column-gap:8.5px;
+    border:1px solid #E6F9F0;
+    padding:11px 14px;
+    color: #06C167;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left:36px;
+}
+
+.product{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1D1D1F;
+    margin-top:192px;
+}
+
+.popular-product{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    color: #1D1D1F;
+    margin-top:20px;
+    margin-bottom:64px;
+}
+
+.our-product{
+    display:flex;
+    column-gap:30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-product .card{
+    border: 2px solid rgba(118, 118, 117, 0.25);
+    padding:24px 39px;
+}
+
+.our-product .card:hover{
+    border-color: #06C167;
+}
+
+.our-product .green-border{
+    border: 2px solid #06C167;
+}
+
+.our-product .card .stars{
+    display:flex;
+    justify-content:center;
+    column-gap:5.7px;
+    margin-top:5px;
+}
+
+.our-product .card h4{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1D1D1F;
+    margin:0;
+    text-align:center;
+    margin-top:21px;
+}
+
+.our-product .card .price{
+    display:flex;
+    justify-content:center;
+    column-gap:8px;
+    margin-top:25px;
+    margin-bottom:32px;
+}
+
+.our-product .card .price div{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #767675;
+    opacity: 0.35;
+}
+
+.our-product .card .price .green{
+    color: #06C167;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    opacity:1;
+}
+
+.our-product .card .button{
+    border: 2px solid #06C167;
+    padding:17px 29px;
+    margin-top:32px;
+    display:flex;
+    column-gap:31px;
+    justify-content:center;
+    align-items:center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #06C167;
+}
+
+.our-product .card .button img{
+    width:22.38px;
+    height:11px;
+}
+
+.veggie-foods{
+    background-image: url(images/Rectangle\ 8.png);
+    height:459px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:110px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.veggie-foods h1{
+    margin:0;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:0 200px;
+}
+
+.button-get-started{
+    background: #06C167;
+    border:1px solid #06C167;
+    padding:24px 30px;
+    margin-top:37px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display:inline;
+    justify-content:center;
+    align-items:center;
+}
+
+.button-get-started img{
+    width:22.38px;
+    height:11px;
+    margin-left:27px;
+}
+
+.footers{
+    display:flex;
+    column-gap:150px;
+    margin-top:140px;
+    margin-bottom:96px;
+    align-items:center;
+}
+
+.footers .left{
+    flex:1;
+}
+
+.footers .right{
+    flex:2;
+    display:flex;
+    column-gap:91px;
+}
+
+.footers .left h4{
+    margin:0;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #06C167;
+}
+
+.footers .left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D1D1F;
+    padding-top:42px;
+    width:284px;
+}
+
+.footers .left .brands{
+    display:flex;
+    column-gap:25px;
+    margin-top:51px;
+}
+
+.footers .right h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1D1D1F;
+    margin-bottom:41px;
+    width:107px;
+}
+
+.footers .right span{
+    display:inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D1D1F;
+    margin-bottom:16px;
+}
+
+.footers .right .get-in-touch p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D1D1F;
+    width:338px;
+    margin-bottom:37px;
+}
+
+.footers .right .get-in-touch h3{
+    width:140px;
+}
+
+.footers .right .buttons{
+    column-gap:15px;
+    display:flex;
+}
+
+.footers .right .buttons input{
+    background: #F0F1EC;
+    padding:17px 24px;
+    border:none;
+    
+}
+
+.footers .right .buttons input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1D1D1F;
+    opacity: 0.51;
+}
+
+.footers .right .buttons a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #06C167;
+    padding:16px 24px;
+}
+
+.footer-bottom{
+   text-align:center;
+   font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D1D1F;
+}
+
+
